@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MyWTS - 프리스토시스</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="title-screen">
+        <h1>MyWTS</h1>
+        <h3>프리스토시스</h3>
+        <button id="startBtn">게임 시작</button>
+    </div>
+
+    <div id="main-menu" style="display:none;">
+        <!-- 이전에 만든 메뉴 화면 HTML -->
+        <label for="coachName">감독 이름 입력:</label>
+        <input type="text" id="coachName" placeholder="감독 이름">
+        <br><br>
+        <button id="newSeasonBtn">새 시즌 시작</button>
+        <button id="loadBtn">세이브 불러오기</button>
+        <input type="file" id="fileInput" style="display:none">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
